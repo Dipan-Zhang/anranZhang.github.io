@@ -79,6 +79,12 @@ body {
   text-align: center;
 }
 
+.double-button-container {
+  flex-direction: row;
+  display: flex;
+  gap: 16px
+}
+
 .icon-container img {
   height: 40px;
   width: auto;
