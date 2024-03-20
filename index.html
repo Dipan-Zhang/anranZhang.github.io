@@ -16,8 +16,8 @@
   <link rel="icon" href="./assets/images/phtot.png" />
   <title>Anran Zhang</title>
   <meta name="description" content="About me">
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="author" content="Anran Zhang">
   <link rel="stylesheet" href="./css/layout.css">
   <link rel="stylesheet" href="./css/typography.css">
   <link rel="stylesheet" href="./css/utilities.css">
@@ -88,6 +88,10 @@
           TUM.</div>
         <div class="body-text"></div>
       </div>
+      <a class="button" href="./assets/files/CV-Anran-Zhang.pdf">
+        <span class="button-text">Curriculum Vitae</span>
+        <image src="./assets/icons/arrow-right.svg" class="right-arrow-icon" />
+      </a>
     </div>
 
 
@@ -100,13 +104,18 @@
         <div class="project-card">
           <img src="./assets/images/projects/wiping.png" class="project-image">
           <div class="project-card-text-container">
-            <div class="subheader-text project-title">Visuo-tactile Exploration of Unknown 3D surface</div>
-            <div class="body-text project-card-text">Autonomous exploration of Unknown 3d surface leveraging vision-augumented unified force impedance control
+            <div class="subheader-text project-title">Visuo-tactile Exploration of Unknown Environment</div>
+            <div class="body-text project-card-text">Autonomous exploration of Unknown 3d surface leveraging
+              vision-augumented unified force impedance control
               for arbitrary force/motion policy </div>
           </div>
-          <!-- TODO added a github page for my semeter thesis -->
-          <a class="button" href="./project-pages/project-template.html">
+          <a class="button" href="./project-pages/Semester_thesis.html">
             <span class="button-text">Read More</span>
+            <image src="./assets/icons/arrow-right.svg" class="right-arrow-icon" />
+          </a>
+
+          <a class="button" href="./project-pages/project-template.html">
+            <span class="button-text">Video</span>
             <image src="./assets/icons/arrow-right.svg" class="right-arrow-icon" />
           </a>
         </div>
@@ -116,28 +125,19 @@
           <img src="./assets/images/projects/kinematic_calibration_setup.png" class="project-image">
           <div class="project-card-text-container">
             <div class="subheader-text project-title">Kinematic Calibration</div>
-            <div class="body-text project-card-text">Calibration according to Standard ISO 9283, gathering data from laser tracker, evaluate the performance,
-               and generated updated DH parameters
+            <div class="body-text project-card-text">Calibration according to Standard ISO 9283, gathering data from
+              laser tracker, evaluate the performance,
+              and generated updated DH parameters
             </div>
           </div>
-          <a class="button" href="./project-pages/project-template.html">
+          <a class="button" href="./project-pages/kinematic_calibration.html">
             <span class="button-text">Read More</span>
             <image src="./assets/icons/arrow-right.svg" class="right-arrow-icon" />
           </a>
         </div>
 
-        <div class="project-card">
-          <img src="./assets/images/projects/simulation.png" class="project-image">
-          <div class="project-card-text-container">
-            <div class="subheader-text project-title">Robot Control playground</div>
-            <div class="body-text project-card-text">Simulation, Control</div>
-          </div>
-          <a class="button" href="./project-pages/project-template.html">
-            <span class="button-text">Read More</span>
-            <image src="./assets/icons/arrow-right.svg" class="right-arrow-icon" />
-          </a>
-        </div>
-        
+
+
         <div class="project-card">
           <img src="./assets/images/sketchbook.jpeg" class="project-image">
           <div class="project-card-text-container">
@@ -155,31 +155,22 @@
     <!-- COURSE PROJECTS  SECTION -->
     <div id="my-work-section">
       <!-- TODO - Change the subheader-text to whatever you want the Projects section header to say -->
-      <span class="subheader-text">Previous Course Projects</span>
-
+      <span class="subheader-text">Other Projects</span>
       <div class="projects-container">
-        <!-- 
-          TODO
 
-          This is where the project cards live. Here's a base level project card for you to copy:
-          <div class="project-card">
-            <img src="./assets/images/IMAGE_NAME" class="project-image">
-            <div class="project-card-text-container">
-              <div class="subheader-text project-title">PROJECT_NAME</div>
-              <div class="body-text project-card-text">SMALL_PROJECT_DESCRIPTION</div>
-            </div>
-            <a class="button" href="./project-pages/PROJECT_PAGE_NAME.html">
-              <span class="button-text">Read More</span>
-              <image src="./assets/icons/arrow-right.svg" class="right-arrow-icon"/>
-            </a>
+
+        <div class="project-card">
+          <img src="./assets/images/projects/simulation.png" class="project-image">
+          <div class="project-card-text-container">
+            <div class="subheader-text project-title">Robot Control playground</div>
+            <div class="body-text project-card-text">Simulation, Control</div>
           </div>
+          <a class="button" href="./project-pages/project-template.html">
+            <span class="button-text">Read More</span>
+            <image src="./assets/icons/arrow-right.svg" class="right-arrow-icon" />
+          </a>
+        </div>
 
-          - To add a project to the this area, copy the above, paste it below this comment, and change the following:
-              - IMAGE_NAME: the name of the image file in assets/images
-              - PROJECT_NAME: the name of the project (keep it short, it only shows 1 line)
-              - SMALL_PROJECT_DESCRIPTION: a quick project description (max 4 lines)
-              - PROJECT_PAGE_NAME.html: the html filename for the project (must be in project-pages folder)
-        -->
         <div class="project-card">
           <img src="./assets/images/projects/SLAM_i2ros.png" class="project-image">
           <div class="project-card-text-container">
@@ -210,6 +201,42 @@
   </div>
 
 
+
+  <!-- Skills Gallery -->
+  <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+    <tbody>
+      <tr>
+        <td style="padding-bottom:100px;width:100%;vertical-align:middle">
+          <div class="icon-container">
+            <img src="assets/icons/c++.png" alt="Icon 2">
+            <img src="assets/icons/python.png" alt="Icon 1">
+            <img src="assets/icons/ros.png" alt="Icon 3">
+            <img src="assets/icons/matlab.png" alt="Icon 4">
+            <img src="assets/icons/conda.png" alt="Icon 5">
+            <img src="assets/icons/git.png" alt="Icon 6">
+            <img src="assets/icons/docker.png" alt="Icon 7">
+
+            <img src="assets/icons/linux.png" alt="Icon 8">
+            <img src="assets/icons/vim.png" alt="Icon 9">
+            <img src="assets/icons/opencv-logo.png" alt="Icon 10">
+            <img src="assets/icons/Pcl.png" alt="Icon 13">
+            <img src="assets/icons/tf.png" alt="Icon 11">
+            <img src="assets/icons/pytorch.png" alt="Icon 12">
+            <img src="assets/icons/stackoverflow.png" alt="Icon 17">
+            <img src="assets/icons/html.png" alt="Icon 13">
+            <img src="assets/icons/latex.png" alt="Icon 14">
+            <img src="assets/icons/markdown.png" alt="Icon 15">
+
+            <img src="assets/icons/notion.png" alt="Icon 18">
+            <img src="assets/icons/confluence.png" alt="Icon 19">
+            <img src="assets/icons/catia.png" alt="Icon 22">
+            <img src="assets/icons/3d-printer.jpg" alt="Icon 23">
+            <img src="assets/icons/sw.jpg" alt="Icon 24">
+          </div>
+        </td>
+      </tr>
+    </tbody>
+  </table>
   <!-- FOOTER -->
   <div id="footer">
     <!-- 

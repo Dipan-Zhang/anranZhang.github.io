@@ -74,8 +74,16 @@ body {
   gap: 34px;
 }
 
+/* Icon Section */
+.icon-container {
+  text-align: center;
+}
 
-
+.icon-container img {
+  height: 40px;
+  width: auto;
+  padding: 5px;
+}
 
 /* Project Section */
 
